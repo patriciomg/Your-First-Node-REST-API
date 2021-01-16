@@ -11,7 +11,7 @@ it allows you to create a plain text file  .rest containing all the requests
 e.G.:
 _a blank line is needed between Request and data to be send_
 
--------begin file content------------
+------- begin file: routes.rest ------------
 ```
 GET http://localhost:3000/subscribers
 
@@ -29,4 +29,4 @@ Content-Type: application/json
   "subscribedToChannel": "awesome channel"
 }
 ```
--------end file content--------------
+-------end file content---------------------
