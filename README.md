@@ -19,13 +19,14 @@ GET http://localhost:3000/subscribers
 GET http://localhost:3000/subscribers/15
 
 ###
-
+```
 POST GET http://localhost:3000
 Content-Type: application/json
+
 <a blank line needed between Request and data>
 {
   "name": "Joe Doe",
   "subscribedToChannel": "awesome channel"
 }
-
+```
 -------end file content--------------
