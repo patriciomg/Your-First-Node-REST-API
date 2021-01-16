@@ -9,9 +9,10 @@ DATABASE_URL=mongodb://localhost/subscribers
 it allows you to create a plain text file  .rest containing all the requests
 
 e.G.:
+_a blank line is needed between Request and data to be send_
 
 -------begin file content------------
-
+```
 GET http://localhost:3000/subscribers
 
 ###
@@ -19,11 +20,10 @@ GET http://localhost:3000/subscribers
 GET http://localhost:3000/subscribers/15
 
 ###
-```
+
 POST GET http://localhost:3000
 Content-Type: application/json
 
-<a blank line needed between Request and data>
 {
   "name": "Joe Doe",
   "subscribedToChannel": "awesome channel"
